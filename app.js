@@ -8,7 +8,7 @@ let a = 0
 function test() {
     let rec = setTimeout(function() {
         result.innerHTML = a
-        if (a === 10) {
+        if (a === 600) {
             return false;
         }
         a++
